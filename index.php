@@ -25,7 +25,7 @@ function statistiche_giocatori(){
   $punti_fatti = rand(1, 100);
   $rimbalzi= rand(1, 100);
   $falli = rand(1, 100);
-  $percentuale =rand(1, 100)
+  $percentuale =rand(1, 100);
   $tiri_da_2 = $randomPoints * $percentuale / 100;
   $tiri_da_3 = $randomPoints * (100-$percentuale) / 100;
   $statistiche = [
